@@ -12,7 +12,6 @@ import Vision
 class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
-    
     @IBOutlet weak var resultLabel: UILabel!
     
     var chosenImage = CIImage()
