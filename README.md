@@ -5,7 +5,7 @@
 
 ## Description
 
-Worked with Machine Learning APIs...
+Worked with Machine Learning APIs.
 
 ## Swift 
 
