@@ -14,6 +14,7 @@
 		D44E39D628F1DAC400FED62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44E39D528F1DAC400FED62B /* Assets.xcassets */; };
 		D44E39D928F1DAC400FED62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44E39D728F1DAC400FED62B /* LaunchScreen.storyboard */; };
 		D44E39E128F1E0C900FED62B /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D44E39E028F1E0C900FED62B /* MobileNetV2.mlmodel */; };
+		D48BF7FC295B5BD700125E7E /* GizliDosya2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BF7FB295B5BD700125E7E /* GizliDosya2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D44E39D828F1DAC400FED62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D44E39DA28F1DAC400FED62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44E39E028F1E0C900FED62B /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		D48BF7FB295B5BD700125E7E /* GizliDosya2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizliDosya2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D44E39CB28F1DAC300FED62B /* MachineLearningImageRecognation */ = {
 			isa = PBXGroup;
 			children = (
+				D48BF7FA295B5BC300125E7E /* GizliDosya */,
 				D44E39CC28F1DAC300FED62B /* AppDelegate.swift */,
 				D44E39CE28F1DAC300FED62B /* SceneDelegate.swift */,
 				D44E39D028F1DAC300FED62B /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				D44E39E028F1E0C900FED62B /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningImageRecognation;
+			sourceTree = "<group>";
+		};
+		D48BF7FA295B5BC300125E7E /* GizliDosya */ = {
+			isa = PBXGroup;
+			children = (
+				D48BF7FB295B5BD700125E7E /* GizliDosya2.swift */,
+			);
+			path = GizliDosya;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44E39D128F1DAC300FED62B /* ViewController.swift in Sources */,
+				D48BF7FC295B5BD700125E7E /* GizliDosya2.swift in Sources */,
 				D44E39CD28F1DAC300FED62B /* AppDelegate.swift in Sources */,
 				D44E39E128F1E0C900FED62B /* MobileNetV2.mlmodel in Sources */,
 				D44E39CF28F1DAC300FED62B /* SceneDelegate.swift in Sources */,

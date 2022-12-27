@@ -19,6 +19,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("deneme")
     }
 
     @IBAction func changeButtonClicked(_ sender: Any) {
